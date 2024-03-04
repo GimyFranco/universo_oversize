@@ -1,0 +1,141 @@
+/* Reset de estilos para garantir uma base consistente */
+body, h1, h2, p, ul, li, figure {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Estilos gerais */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+main {
+    padding: 30px;
+}
+
+#destaque {
+    text-align: center;
+}
+
+#destaque h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#destaque p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #ffd700;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #ffcc00;
+}
+
+.destaque-produto {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.destaque-produto img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.destaque-produto h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.destaque-produto p {
+    font-size: 1.1em;
+}
+
+aside {
+    width: 30%;
+    padding: 30px;
+}
+
+#sobre h2,
+#novidades h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+#novidades ul {
+    list-style-type: none;
+}
+
+#novidades li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+#contato h2,
+#redes-sociais h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+#redes-sociais ul {
+    list-style-type: none;
+}
+
+#redes-sociais li {
+    margin-bottom: 10px;
+}
+
+#redes-sociais a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+#redes-sociais a:hover {
+    color: #ffcc00;
+}
